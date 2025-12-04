@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+          crossorigin=""/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 style="background-color: black; color: aliceblue; margin: 10px;">
+            <em>About Me</em>
+        </h1>
+        <div class="about-section">
+            <h3 style="background-color: white;">
+                I am <em>Abhinav</em> &lt;<b>cs25b041</b>&gt;.
+            </h3>
+            <h3 style="background-color: white;">
+                I am currently pursuing a B.Tech in Computer Science in IIT MADRAS. 
+                I am interested in technology.
+            </h3>
+            <h2>Hobbies</h2>
+            <ul class="hobbies-list">
+                <h3> Watching movies</h3>
+                <h3> Watching anime</h3>
+                <h3> Listening to music</h3>
+            </ul>
+        </div>
+        <div class="widgets-container">
+            <div>
+                <h2 style="margin-left: 0; text-align: center;"> Weather in Chennai</h2>
+                <div id="weather-widget">
+                    <p class="weather-loading">Loading weather data...</p>
+                </div>
+            </div>
+            <div>
+                <h2 style="margin-left: 0; text-align: center;"> Location Map</h2>
+                <div id="map"></div>
+            </div>
+        </div> 
+    </section>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+            crossorigin="" ></script>
+     <script src="index.js"></script>
+        
+    </body>        
+           
+</html>
+
